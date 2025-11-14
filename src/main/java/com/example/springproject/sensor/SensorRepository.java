@@ -1,4 +1,4 @@
-package com.example.springproject;
+package com.example.springproject.sensor;
 
 import org.springframework.stereotype.Repository;
 import java.util.*;

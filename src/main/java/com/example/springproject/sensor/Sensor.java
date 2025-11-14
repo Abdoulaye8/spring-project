@@ -1,4 +1,4 @@
-package com.example.springproject;
+package com.example.springproject.sensor;
 
 public class Sensor {
     private int id;
