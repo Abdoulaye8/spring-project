@@ -1,6 +1,6 @@
 package com.example.springproject;
 
-import fr.le_campus_numerique.square_games.engine.TicTacToeGameFactory;
+import fr.le_campus_numerique.square_games.engine.tictactoe.TicTacToeGameFactory;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -14,7 +14,7 @@ public class GameCatalogImpl implements GameCatalog {
 
     public GameCatalogImpl() {
         TicTacToeGameFactory ticTacToe = new TicTacToeGameFactory();
-        gameIds.add(ticTacToe.getIdentifier());
+        gameIds.add(ticTacToe.getGameFactoryId());
 
     }
 

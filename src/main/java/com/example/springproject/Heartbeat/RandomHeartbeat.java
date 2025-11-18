@@ -1,4 +1,4 @@
-package com.example.springproject;
+package com.example.springproject.Heartbeat;
 import org.springframework.stereotype.Service;
 import java.util.Random;
 

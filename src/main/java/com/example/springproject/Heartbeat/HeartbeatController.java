@@ -1,4 +1,4 @@
-package com.example.springproject;
+package com.example.springproject.Heartbeat;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

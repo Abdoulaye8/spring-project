@@ -1,4 +1,4 @@
-package com.example.springproject;
+package com.example.springproject.Heartbeat;
 
 public interface HeartbeatSensor {
     int get();
