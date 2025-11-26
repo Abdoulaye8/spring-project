@@ -1,4 +1,4 @@
-package com.example.springproject;
+package com.example.springproject.games;
 
 import java.util.Collection;
 
