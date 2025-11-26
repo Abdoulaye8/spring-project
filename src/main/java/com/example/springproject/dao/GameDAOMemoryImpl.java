@@ -8,7 +8,7 @@ import java.util.*;
 @Repository
 public class GameDAOMemoryImpl implements GameDAO {
 
-    private Map<UUID, GameDTO> games = new HashMap<>();
+    private final Map<UUID, GameDTO> games = new HashMap<>();
 
     @Override
     public GameDTO save(GameDTO game) {
